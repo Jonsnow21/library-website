@@ -5,14 +5,10 @@ var objectId = require('mongodb').ObjectID;
 
 
 var router = function (nav) {
-		var bookController = require('../controllers/bookController')(null, nav);
+		var bookService = require('../services/goodreadsService')();
+		var bookController = require('../controllers/bookController')(bookService, nav);
 		
-	bookRouter.use(function(req, res, next){
-		if(!req.user) {
-			res.redirect('/');
-		}
-		next();
-	});	
+	bookRouter.use(bookController.middleware);	
 	bookRouter.route('/')
 		.get(bookController.getIndex);
 
