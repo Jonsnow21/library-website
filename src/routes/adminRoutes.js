@@ -15,24 +15,28 @@ var books = [{
 		bookId: 24280,
     read: false
     }, {
-    title: 'War and Peace',
-    genre: 'Historical Fiction',
-    author: 'Lev Nikolayevich Tolstoy',
+    title: 'The Summer We Read Gatsby',
+    genre: 'Fiction',
+    author: 'Danielle Ganek',
+		bookId: 7744084,
     read: false
     }, {
-    title: 'War and Peace',
-    genre: 'Historical Fiction',
-    author: 'Lev Nikolayevich Tolstoy',
+    title: 'The Passage',
+    genre: 'Horror',
+    author: 'Justin Cronin',
+		bookId: 6690798,
     read: false
     }, {
-    title: 'War and Peace',
-    genre: 'Historical Fiction',
-    author: 'Lev Nikolayevich Tolstoy',
+    title: 'Red Hook Road ',
+    genre: 'Fiction',
+    author: 'Ayelet Waldman',
+		bookId: 7624169,
     read: false
     }, {
-    title: 'War and Peace',
-    genre: 'Historical Fiction',
-    author: 'Lev Nikolayevich Tolstoy',
+    title: 'The Kite Runner',
+    genre: 'Fiction',
+    author: 'Khaled Hosseini',
+		bookId: 77203,
     read: false
     }];
 
